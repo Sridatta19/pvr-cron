@@ -1,0 +1,16 @@
+{
+  "name": "pvr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-cron": "2.0.1",
+    "node-fetch": "^2.2.0",
+    "request": "^2.88.0",
+    "twilio": "^3.22.0"
+  },
+  "scripts": {
+    "prestart": "yarn add node-cron",
+    "start": "node index.js"
+  }
+}
